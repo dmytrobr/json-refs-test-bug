@@ -1,0 +1,14 @@
+{
+  "name": "generate-api-and-html",
+  "version": "1.0.0",
+  "description": "Multi-file Swagger example",
+  "main": "generate-doc.js",
+  "scripts": {
+    "start": "node generate-doc.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "json-refs": "^2.1.5",
+    "yaml-js": "^0.1.3"
+  }
+}

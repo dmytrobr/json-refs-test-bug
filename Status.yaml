@@ -1,0 +1,12 @@
+Status:
+  type: object
+  properties:
+    status:
+      $ref: '#/StatusItem'
+  required:
+    - status
+StatusItem:
+  properties:
+    reqStatus:
+      type: string
+      example: sample reqStatus
