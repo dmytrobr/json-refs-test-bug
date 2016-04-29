@@ -1,0 +1,13 @@
+post:
+  summary: test api
+  operationId: queryServices
+  parameters:
+    - name: data
+      in: body
+      schema:
+        $ref: 'definitions.yaml#/Request'
+  responses:
+    '200':
+      description: OK
+      schema:
+        $ref: '../Status.yaml#/Status'

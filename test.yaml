@@ -1,4 +1,4 @@
-swagger: '2.0'
+swagger: '2'
 info:
   description: test
   version: 1
@@ -11,7 +11,7 @@ security:
   - TENANT_ID: []
   - AUTHENTICATION_TOKEN: []
 paths:
-  '/testapi/{id}':
+  '/testapi':
     $ref: 'testapi/api.yaml'
 
 securityDefinitions:

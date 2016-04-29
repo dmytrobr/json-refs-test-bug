@@ -1,0 +1,7 @@
+Request:
+  type: object
+  properties:
+    params:
+      type: array
+      items:
+        $ref: '../Parameters.yaml#/CustomParams'
